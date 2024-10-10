@@ -9,7 +9,7 @@ const activePlayers = {};
 const client = require('./redisClient');
 
 const pool = new Pool({
-  user: 'admin',
+  user: 'mud_admin',
   host: 'localhost',
   database: 'mud_game',
   password: 'your_password',
